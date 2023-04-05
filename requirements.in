@@ -1,0 +1,12 @@
+numpy
+transformers
+scikit-learn
+tokenizers
+pandas
+seaborn
+plotly
+tqdm
+notebook
+matplotlib
+unicode_tr
+num2words

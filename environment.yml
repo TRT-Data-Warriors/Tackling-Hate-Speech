@@ -1,0 +1,14 @@
+name: tdd_acikhack
+channel_priority: strict
+channels:
+  - conda-forge
+  - tensorflow
+dependencies:
+  - python=3.9.16
+  - tensorflow=2.10.0
+  - cudatoolkit=11.2.2
+  - cudnn=8.1.0
+  - pip
+  - pip:
+      - pip-tools
+      - -r requirements.txt
