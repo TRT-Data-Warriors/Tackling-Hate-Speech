@@ -40,17 +40,16 @@ ya da <b>classification.ipynb</b> notebookunu kullanabilirsiniz.
 
 ## <b>Tüm Model Deney Sonuçları</b>
 
-| Model | Ortalama F1 Macro Skoru | Framework | KFOLD |
-| --- | --- | --- | --- |
-| 1. TFIDF + Catboost/XGB | ~0.75-0.77 | Scikit-learn | No |
-| 2. Fasttext + BiLSTM/CNN | ~0.87-0.89 | Tensorflow | No |
-| 3. bert-base-turkish-cased | 0.9376 | Torch | No |
-| 4. bert-base-turkish-uncased | 0.9412 | Torch | No |
-| 5. convbert-base-turkish-uncased | 0.9431 | Torch | No |
-| 6. convbert-base-turkish-mc4-uncased + Bi-LSTM + Attention| 0.9664 | Tensorflow | Yes |
-| 7. convbert-base-turkish-mc4-uncased + Bi-GRU + CNN | 0.9672 | Tensorflow | Yes |
-| 8. convbert-base-turkish-mc4-uncased + Bi-LSTM | 0.9674 | Tensorflow | Yes |
-| 9: Ensemble --> 6, 7 and 8. modeller | 0.97003 | Tensorflow | No |
-
+| Model | Ortalama F1 Macro Skoru | KFOLD |
+| --- | --- | --- |
+| 1. TFIDF + Catboost/XGB | ~0.75-0.77 | No
+| 2. Fasttext + BiLSTM/CNN | ~0.87-0.89 | No
+| 3. bert-base-turkish-uncased | 0.9376 | No
+| 4. bert-base-turkish-uncased | 0.9412 | No 
+| 5. convbert-base-turkish-uncased | 0.9431 | No |
+| 6. convbert-base-turkish-mc4-uncased + Bi-LSTM + Attention| 0.9664 | Yes |
+| 7. convbert-base-turkish-mc4-uncased + Bi-GRU + CNN | 0.9672 | Yes |
+| 8. convbert-base-turkish-mc4-uncased + Bi-LSTM | 0.9674 | Yes |
+| 9: Ensemble --> 6, 7 and 8. modeller | 0.97003 | No |
 
 
