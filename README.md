@@ -45,7 +45,7 @@ Training veri setine yaklaşık 5 bin kadar yeni veri eklenmiş ve bu durum perf
 ```
 ya da <b>classification.ipynb</b> notebookunu kullanabilirsiniz.
 
-## Model Yapısı
+## 3 Farklı Model Yapısı
 <img src='./model_plot/first_model.png' width="300" height="300">
 <img src='./model_plot/second_model.png' width="300" height="300">
 <img src='./model_plot/third_model.png' width="300" height="300">
