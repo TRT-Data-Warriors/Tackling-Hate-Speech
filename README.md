@@ -44,7 +44,7 @@ ya da <b>classification.ipynb</b> notebookunu kullanabilirsiniz.
 | --- | --- | --- |
 | 1. TFIDF + Catboost/XGB | ~0.75-0.77 | No
 | 2. Fasttext + BiLSTM/CNN | ~0.87-0.89 | No
-| 3. bert-base-turkish-uncased | 0.9376 | No
+| 3. bert-base-turkish-cased | 0.9376 | No
 | 4. bert-base-turkish-uncased | 0.9412 | No 
 | 5. convbert-base-turkish-uncased | 0.9431 | No |
 | 6. convbert-base-turkish-mc4-uncased + Bi-LSTM + Attention| 0.9664 | Yes |
