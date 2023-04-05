@@ -9,13 +9,13 @@ Herhangi bir CUDA/GPU sorunuyla karşılaşmamak için doğru bir biçimde conda
 
 ```shell
 conda create --name=tf_gpu python=3.9
-conda activate tf
+conda activate tf_gpu
 conda install -c conda-forge cudatoolkit=11.2.2 cudnn=8.1.0
 mkdir -p $CONDA_PREFIX/etc/conda/activate.d
 echo 'export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:$CONDA_PREFIX/lib/' > $CONDA_PREFIX/etc/conda/activate.d/env_vars.sh
 
 # restart program/server
-conda activate tf
+conda activate tf_gpu
 python3 -m pip install tensorflow==2.10
 ```
 
@@ -26,8 +26,15 @@ Projeyi sorunsuz çalıştırabilmek için aşağıdaki komutları kullanarak bi
 conda env create -f environment.yml
 conda activate tdd_acikhack
 ```
+## Veri Artırımı (Data Augmentation)
+Training veri setine yaklaşık 5 bin kadar yeni veri eklenmiş ve bu durum performansa 1.5-2 puan pozitif etki yapmıştır.
+- Twitter, İnci Sözlük, Ekşi Sözlük sitelerinden toplanan kullanıcı yorumları
+- <a href='https://coltekin.github.io/offensive-turkish/'>Offenseval</a> veri seti
+- <a href='https://coltekin.github.io/offensive-turkish/'>Çöltekin Troff</a> veri seti 
+- ChatGPT
+- Google Translate servisi
 
-## <b>Çalıştırma</b>
+## <b>Nasıl Çalıştırılır?</b>
 ```shell
   python run.py
 --train_data_path TRAIN_VERISI_ADRESI
@@ -43,13 +50,13 @@ ya da <b>classification.ipynb</b> notebookunu kullanabilirsiniz.
 | Model | Ortalama F1 Macro Skoru | KFOLD |
 | --- | --- | --- |
 | 1. TFIDF + Catboost/XGB | ~0.75-0.77 | No
-| 2. Fasttext + BiLSTM/CNN | ~0.87-0.89 | No
-| 3. bert-base-turkish-cased | 0.9376 | No
-| 4. bert-base-turkish-uncased | 0.9412 | No 
-| 5. convbert-base-turkish-uncased | 0.9431 | No |
-| 6. convbert-base-turkish-mc4-uncased + Bi-LSTM + Attention| 0.9664 | Yes |
-| 7. convbert-base-turkish-mc4-uncased + Bi-GRU + CNN | 0.9672 | Yes |
-| 8. convbert-base-turkish-mc4-uncased + Bi-LSTM | 0.9674 | Yes |
+| 2. Fasttext/Word2Vec + BiLSTM/CNN | ~0.87-0.89 | No
+| 3. BERTurk (cased, 32k) | 0.9376 | No
+| 4. BERTurk (uncased, 32k) | 0.9412 | No 
+| 5. ConvBERTurk | 0.9431 | No |
+| 6. ConvBERTurk mC4 + Bi-LSTM + Attention| 0.9664 | Yes |
+| 7. ConvBERTurk mC4 + Bi-GRU + CNN | 0.9672 | Yes |
+| 8. ConvBERTurk mC4 + Bi-LSTM | 0.9674 | Yes |
 | 9: Ensemble --> 6, 7 and 8. modeller | 0.97003 | No |
 
 
