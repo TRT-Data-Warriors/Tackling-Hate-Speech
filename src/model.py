@@ -20,7 +20,7 @@ def bert_bilstm_model(bert_encoder, max_length):
         GlobalAveragePooling1D()(x),
     ])
     hidden = add([hidden, Dense(DENSE_HIDDEN_UNITS, activation='relu')(hidden)])
-    #hidden = add([hidden, Dense(DENSE_HIDDEN_UNITS, activation='relu')(hidden)])
+    hidden = add([hidden, Dense(DENSE_HIDDEN_UNITS, activation='relu')(hidden)])
     result = Dense(5, activation='softmax')(hidden)
 
 
