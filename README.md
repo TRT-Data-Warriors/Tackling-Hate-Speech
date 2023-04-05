@@ -47,7 +47,7 @@ ya da <b>classification.ipynb</b> notebookunu kullanabilirsiniz.
 
 ## <b>Tüm Model Deney Sonuçları</b>
 
-| Model | Ortalama F1 Macro Skoru | KFOLD |
+| Model | Ortalama F1 Macro Skoru | CV |
 | --- | --- | --- |
 | 1. TFIDF + Catboost/XGB | ~0.75-0.77 | No
 | 2. Fasttext/Word2Vec + BiLSTM/CNN | ~0.87-0.89 | No
