@@ -46,6 +46,10 @@ Training veri setine yaklaşık 5 bin kadar yeni veri eklenmiş ve bu durum perf
 ya da <b>classification.ipynb</b> notebookunu kullanabilirsiniz.
 
 ## 3 Farklı Model Yapısı
+- ConvBERTurk mC4 + Bi-LSTM
+- ConvBERTurk mC4 + Bi-GRU + CNN
+- ConvBERTurk mC4 + Bi-LSTM + Attention
+
 <img src='./model_plot/first_model.png' width="300" height="300">
 <img src='./model_plot/second_model.png' width="300" height="300">
 <img src='./model_plot/third_model.png' width="300" height="300">
