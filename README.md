@@ -1,5 +1,5 @@
 # Aşağılayıcı Söylemlerin Doğal Dil İşleme İle Tespiti
-
+# TRT DATA WARRIORS TEAM
 ## <b>HIZLI BAŞLANGIÇ</b>
 
 ### <b>Gereksinimler</b>
