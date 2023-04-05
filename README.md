@@ -45,6 +45,11 @@ Training veri setine yaklaşık 5 bin kadar yeni veri eklenmiş ve bu durum perf
 ```
 ya da <b>classification.ipynb</b> notebookunu kullanabilirsiniz.
 
+## Model Yapısı
+<img src='/home/ml/dide/workspace/Mustafa/TEKNOFEST/Notebooks/outputs/first_model.png' width="300" height="300">
+<img src='/home/ml/dide/workspace/Mustafa/TEKNOFEST/Notebooks/outputs/second_model.png' width="300" height="300">
+<img src='/home/ml/dide/workspace/Mustafa/TEKNOFEST/Notebooks/outputs/third_model.png' width="300" height="300">
+
 ## <b>Tüm Model Deney Sonuçları</b>
 
 | Model | Ortalama F1 Macro Skoru | CV |
