@@ -44,6 +44,7 @@ Sınıflara göre ek veri sayısı:
 |RACIST | 2017 | 2475 | 458
 |SEXIST | 2112 | 2192 | 80
 |PROFANITY | 2398 | 2854 | 456
+
 Veri artırmadaki amaç modeli genelleştirmek ve metinlerin daha fazla yönlendirilmesini ve öğrenmesini sağlamaktır, böylece test sırasında model test verilerini iyi kavrayabilir. Bu nedenle, büyütme tekniğini sadece eğitim setleri için kullanmak daha mantıklıdır.
 
 #### Ek Verileri Nereden Topladık?
