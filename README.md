@@ -113,7 +113,11 @@ Social Media",  Proceedings of the Twelfth Language Resources and Evaluation Con
 
 ## Katkıda Bulunanlar
 <b>Danışman</b>: İlknur Durgar ElKahlout - <a href='https://github.com/idurgar'>GitHub</a>
+
 <b>Kaptan</b>: Mustafa Budak - <a href='https://github.com/mustafaabudakk'>GitHub</a>
+
 <b>Üye</b>: Muhammed Emir Koçak - <a href='https://github.com/orgs/TRT-Data-Warriors/people/mek12'>GitHub</a>
+
 <b>Üye</b>: Nusret Özateş - <a href='https://github.com/NusretOzates'>GitHub</a>
+
 <b>Üye</b>: Burcu Şenol - <a href='https://github.com/Burcusenol'>GitHub</a>
