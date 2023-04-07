@@ -43,11 +43,11 @@ Training veri setine yaklaşık 6k yeni veri eklenmiştir.
 Sınıflara göre ek veri sayısı:
 | Sınıf | Eski Durumdaki Veri Sayıları| Data Augmentation Sonrası Veri Sayıları | Fark |
 | --- | --- | --- | --- |
-|OTHER | 3616 | 8455 | 4839
-|INSULT | 2419 | 2890 | 471
-|RACIST | 2017 | 2475 | 458
-|SEXIST | 2112 | 2192 | 80
-|PROFANITY | 2398 | 2854 | 456
+|OTHER | 3616 | 8455 | 4839 |
+|INSULT | 2419 | 2890 | 471 |
+|RACIST | 2017 | 2475 | 458 |
+|SEXIST | 2112 | 2192 | 80 |
+|PROFANITY | 2398 | 2854 | 456 |
 
 Veri artırmadaki amaç modeli genelleştirmek ve metinlerin daha fazla yönlendirilmesini ve öğrenmesini sağlamaktır, böylece test sırasında model test verilerini iyi kavrayabilir. Bu nedenle, büyütme tekniğini sadece eğitim setleri için kullanmak daha mantıklıdır.
 
@@ -74,7 +74,7 @@ ya da <b>classification.ipynb</b> notebookunu kullanabilirsiniz.
 ## <b>Tüm Model Deney Sonuçları</b>
 
 | Model | Ortalama F1 Macro Skoru | CV | Training Time |
-| --- | --- | --- | --- | --- |
+| --- | --- | --- | --- |
 | 1. TFIDF + Catboost/XGB | ~0.75-0.77 | No | ~45s
 | 2. Fasttext/Word2Vec + BiLSTM/CNN | ~0.87-0.89 | No | ~271s (30 epochs)
 | 3. BERTurk (cased, 32k) (Fine-tuned) | 0.9376 | No | ~345s (10 epochs)
