@@ -4,11 +4,6 @@
 
 <b>NOTE: Modellere erişmek için <a href='https://huggingface.co/emirkocak/TRT_Data_Warriors_tackling_hate_speech'>HuggingFace</a> sayfasını ziyaret edebilirsiniz.</b>
 
-### Donanım
-- GPU: NVIDIA RTX A6000 48GB 
-- Processor: AMD EPYC 7742 64-Core Processor
-- RAM : 256GB
-
 
 ### <b>Gereksinimler</b>
 Conda paket yöneticisi en son sürümde olmalıdır.
@@ -34,6 +29,12 @@ Projeyi sorunsuz çalıştırabilmek için aşağıdaki komutları kullanarak bi
 conda env create -f environment.yml
 conda activate tdd_acikhack
 ```
+
+## Donanım
+- GPU: NVIDIA RTX A6000 48GB 
+- Processor: AMD EPYC 7742 64-Core Processor
+- RAM : 256GB
+
 ## Veri Artırımı (Data Augmentation)
 Training veri setine yaklaşık 6k yeni veri eklenmiştir.
 Sınıflara göre ek veri sayısı:
