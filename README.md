@@ -81,7 +81,7 @@ ya da <b>classification.ipynb</b> notebookunu kullanabilirsiniz.
 | 6. ConvBERTurk mC4 + Bi-LSTM + Attention| 0.9664 | Yes | ~451s (1 Fold - 20 epochs)
 | 7. ConvBERTurk mC4 + Bi-GRU + CNN | 0.9672 | Yes | ~475s (1 Fold - 20 epochs)
 | 8. ConvBERTurk mC4 + Bi-LSTM | 0.9674 | Yes | ~492s (1 Fold - 20 epochs)
-| 9: Ensemble --> 6, 7 and 8. modeller | 0.97003 | No | - |
+| 9: Ensemble --> 6, 7 ve 8. modeller | 0.97003 | No | - |
 
 ## Ensemble İşlemi Uygulanan 3 Farklı Model Yapısı
 - ConvBERTurk mC4 + Bi-LSTM
