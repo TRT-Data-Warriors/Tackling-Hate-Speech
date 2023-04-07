@@ -31,8 +31,11 @@ conda activate tdd_acikhack
 ```
 
 <h3> Donanım </h3>
+
 - GPU: NVIDIA RTX A6000 48GB 
+
 - Processor: AMD EPYC 7742 64-Core Processor
+
 - RAM : 256GB
 
 ## Veri Artırımı (Data Augmentation)
