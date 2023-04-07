@@ -30,12 +30,10 @@ conda env create -f environment.yml
 conda activate tdd_acikhack
 ```
 
-<h3> Donanım </h3>
+### <b>Donanım</b>
 
 - GPU: NVIDIA RTX A6000 48GB 
-
 - Processor: AMD EPYC 7742 64-Core Processor
-
 - RAM : 256GB
 
 ## Veri Artırımı (Data Augmentation)
@@ -112,12 +110,8 @@ Social Media",  Proceedings of the Twelfth Language Resources and Evaluation Con
 - <a href='https://ieeexplore.ieee.org/document/9599042'> İ. Mayda, Y. E. Demir, T. Dalyan and B. Diri, "Hate Speech  Dataset from Turkish Tweets," 2021 Innovations in  Intelligent Systems and Applications Conference (ASYU), Elazig, Turkey, 2021, pp. 1-6.</a>
 
 ## Katkıda Bulunanlar
-<b>Danışman</b>: İlknur Durgar ElKahlout - <a href='https://github.com/idurgar'>GitHub</a>
-
-<b>Kaptan</b>: Mustafa Budak - <a href='https://github.com/mustafaabudakk'>GitHub</a>
-
-<b>Üye</b>: Muhammed Emir Koçak - <a href='https://github.com/mek12'>GitHub</a>
-
-<b>Üye</b>: Nusret Özateş - <a href='https://github.com/NusretOzates'>GitHub</a>
-
+<b>Danışman</b>: İlknur Durgar ElKahlout - <a href='https://github.com/idurgar'>GitHub</a><br>
+<b>Kaptan</b>: Mustafa Budak - <a href='https://github.com/mustafaabudakk'>GitHub</a><br>
+<b>Üye</b>: Muhammed Emir Koçak - <a href='https://github.com/mek12'>GitHub</a><br>
+<b>Üye</b>: Nusret Özateş - <a href='https://github.com/NusretOzates'>GitHub</a><br>
 <b>Üye</b>: Burcu Şenol - <a href='https://github.com/Burcusenol'>GitHub</a>
